@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Mercedes Benz צור קשר</title>
+    <link rel="stylesheet" href="/styles/styleTemplate.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="/styles/styleContact.css">
+    <link rel="stylesheet" href="/styles/media.css">
+</head>
+<body>
+    <header>
+        <aside class="logo"><img src="/images/logo/mercedes-logo.png" alt=""></aside>
+        <aside class="logo"><img src="/images/logo/AMG-logo.png" alt=""></aside>
+        <article>
+            <a class="colorclick" href="/index.html"><i class="fa fa-fw fa-home"></i>דף בית</a>
+            <a href="https://www.mercedes-benz.co.il/about_merceds_benz/customer_service/"  target="_blank"><i class="fa fa-fw fa-wrench"></i>שירות</a>
+            <a href="/pages/contact.html"><i class="fa fa-fw fa-envelope"></i>צור קשר</a>
+            <a href="https://www.facebook.com/MercedesBenz/" target="_blank"><i class="fa fa-facebook-square"></i>פייספוק</a>
+        </article>
+        <aside class="fa" id="asidesmile">
+                <script>
+                    function smile() {
+                        var a;
+                        a = document.getElementById("asidesmile");
+                        a.innerHTML = "&#xf118;";
+                        setTimeout(function () {
+                            a.innerHTML = "&#xf11a;";
+                            }, 1000);
+                        setTimeout(function () {
+                        a.innerHTML = "&#xf119;";
+                        }, 2000);
+                        setTimeout(function () {
+                        a.innerHTML = "&#xf11a;";
+                        }, 3000);
+                        }
+                        smile();
+                        setInterval(smile, 4000);
+                </script>
+            </aside>
+    </header>
+    <section>
+            <nav><a href="AClass.html"><img src="/images/logo/AClassLogo.png" alt="AClassLogo"><br/><p>A Class</p></a></nav>
+            <nav><a href="CClass.html"><img src="/images/logo/CClassLogo.png" alt="CClassLogo"><br/><p>C Class</p></a></nav>
+            <nav><a href="EClass.htm"><img src="/images/logo/EClassLogo.png" alt="EClassLogo"><br/><p>E Class</p></a></nav>
+            <nav><a href="SClass.html"><img src="/images/logo/SClassLogo.png" alt="SClassLogo"><br/><p>S Class</p></a></nav>
+            <nav><a href="GClass.html"><img src="/images/logo/GClassLogo.png" alt="GClassLogo"><br/><p>G Class</p></a></nav>
+            <nav><a href="GLCClass.html"><img src="/images/logo/GLCClassLogo.png" alt="GLCClassLogo"><br/><p>GLC Class</p></a></nav>
+            <nav><a href="GLCCoupeClass.html"><img src="/images/logo/GLCCoupeClassLogo.png" alt="GLCCoupeClassLogo"><br/><p>GLC Coupe Class</p></a></nav>
+            <nav><a href="GLEClass.htm"><img src="/images/logo/GLEClassLogo.png" alt="GLEClassLogo"><br/><p>GLE Class</p></a></nav>
+            <nav><a href="GLSClass.html"><img src="/images/logo/GLSClassLogo.png" alt="GLSClassLogo"><br/><p>GLS Class</p></a></nav>
+    </section>
+    <main>
+        <div class="backimage"></div>
+        <div class="h1"><h1>צור קשר</h1></div> 
+        <aside class="hero_text">
+            <form action="/index.html" method="GET">
+                    <fieldset>
+                        <legend>תקליד את הפרטים:</legend>
+                        <table>
+                            <tr><td>שם פרטי:<input type="text" /></td></tr>
+                            <tr><td>שם משפחה:<input type="text" /></td></tr>
+                            <tr><td>דוא"ל:<input type="text" /></td></tr>
+                            <tr>
+                                <td> 
+                                    <input type="radio" name="gender" value="male"> זכר &nbsp
+                                    <input type="radio" name="gender" value="female"> נקבה &nbsp
+                                    <input type="radio" name="gender" value="other"> אחר
+                                </td>
+                            </tr>
+                            <tr>
+                                    <td>
+                                        <select name="Hobbies">
+                                        <option value="Excursions">תבחר סוג</option>
+                                        <option value="A Class">A Class</option>
+                                        <option value="C Class">C Class</option>
+                                        <option value="E Class">E Class</option>
+                                        <option value="S Class">S Class</option>
+                                        <option value="G Class">G Class</option>
+                                        <option value="GLC Class">GLC Class</option>
+                                        <option value="GLC Coupe Class">GLC Coupe Class</option>
+                                        <option value="C Class"> Class</option>
+                                        <option value="C Class">C Class</option>
+                                        </select>
+                                    </td>
+                                </tr>
+                            <tr><td>הודעה:<br/><textarea name="message" rows="10" cols="30" ></textarea></td></tr>
+                            <tr>
+                                <td>
+                                    <input type="submit" value="Send" class="button"><input type="reset" class="button">
+                                </td>
+                            </tr>
+                        </table>
+                    </fieldset>
+                </form>        
+        </aside>
+        <aside class="ads"><video class="video" controls><source src="/videos/1.mp4" type="video/mp4"></video>
+            <p>מרצדס- שאיפה למצוינות!</p>
+        </aside>
+        <aside class="ads"><video class="video" controls><source src="/videos/2.mp4" type="video/mp4"></video>
+            <p>מרצדס C-Class החדשה</p></aside>
+        <aside class="ads"><video class="video" controls><source src="/videos/3.mp4" type="video/mp4"></video>
+            <p>מרצדס S Class אופנה ויופי</p>></aside>
+    </main>
+    <footer><p>&copy; All Rights Reserved</p></footer>
+</body>
+</html>

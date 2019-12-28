@@ -1,0 +1,269 @@
+body {
+    width: 100%;
+    background-color: #555;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0;
+    margin: 0;
+    height: 100%;
+    direction: rtl;
+}
+
+header, section, main, footer {
+    overflow: auto;
+}
+
+header, main, footer {
+    width: 85%;
+}
+
+header {
+    position: fixed;
+    top: 0%;
+    background-color: #555;
+}
+
+.logo {
+    width: 15%;
+    float: right;
+}
+
+.logo > img {
+    margin: 3%;
+    width: 100%;
+}
+
+article {
+    width: 60%;
+    padding: 1%;
+    float: right;
+    background-color: #555;
+}
+
+    
+article a {   
+    float: right; 
+    padding: 10px;
+    color: white;
+    text-decoration: none;
+    font-size: 17px;
+    overflow: auto;
+}
+
+article a:hover {
+    background-color: #000;
+}
+
+.colorclick {
+    background-color: #4CAF50;
+}
+
+#asidesmile {
+    padding-left: 2%;
+    width: 5%;
+    background: white;
+    float: right;
+    font-size: 60px;
+    background-color: #555;
+}
+
+section {
+    background-color: #555;
+    position: fixed;
+    top: 0%;
+    left: 0%;
+    width: 10%;
+    height: 100%;
+    padding-top: 2%;
+}
+
+nav {
+    width: 100%;
+    height: auto;
+    text-align: center;
+    padding: 2% 1% 1% 2%;
+}
+
+nav a {
+    text-decoration: none;
+}
+
+nav:hover {
+    -ms-transform: scale(1.3);
+    -webkit-transform: scale(1.3);
+    transform: scale(1.3);
+    background-color: black;
+}
+
+nav a:hover {
+    color: white;
+    text-decoration: underline;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+nav img {
+    width: 80%;
+}
+
+nav p {
+    font-size: 15px;
+    color: white;
+}
+
+main {
+    margin-left: 10%;
+    margin-top: 5%;
+    padding: 1%;
+    height: auto;
+}
+
+
+.contents {
+    padding: 2%;
+    width: 90%;
+}
+
+.ads {
+    padding-top: 2%;
+    margin: 0% 1% 0% 1%;
+    float: right;
+    width: 30%;
+}
+
+.ads > .video {
+    width: 100%;
+}
+
+.ads > p {
+    text-align: center;
+    color: white;
+}
+
+.h1, .texthed {
+    text-align: center;
+    text-decoration: underline;
+    font-weight: bold;
+    -webkit-animation: color_change 1s infinite alternate;
+    -moz-animation: color_change 1s infinite alternate;
+    -ms-animation: color_change 1s infinite alternate;
+    -o-animation: color_change 1s infinite alternate;
+    animation: color_change 1s infinite alternate;
+    border-radius: 20px;
+}
+
+.h1{
+    font-size: 40px;
+}
+
+.texthed{
+    font-size: 30px;
+}
+
+@-webkit-keyframes color_change {
+    from {
+        background-color: blue;
+        color: red;
+    }
+
+    to {
+        background-color: #555;
+        color: black;
+    }
+}
+
+@-moz-keyframes color_change {
+    from {
+        background-color: blue;
+        color: red;
+    }
+
+    to {
+        background-color: #555;
+        color: black;
+    }
+}
+
+@-ms-keyframes color_change {
+    from {
+        background-color: blue;
+        color: red;
+    }
+
+    to {
+        background-color: #555;
+        color: black;
+    }
+}
+
+@-o-keyframes color_change {
+    from {
+        background-color: blue;
+        color: red;
+    }
+
+    to {
+        background-color: #555;
+        color: black;
+    }
+}
+
+@keyframes color_change {
+    from {
+        background-color: blue;
+        color: red;
+    }
+
+    to {
+        background-color: #555;
+        color: black;
+        
+    }
+}
+
+.backimage {
+    width: 100%;
+    height: 400px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 20px;
+}
+
+.hero_text {
+    width: 100%;
+    height: 45%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+
+.hero_text > img {
+    padding: 2% 2% 0 0;
+    width: 45%;
+    height: 100%;
+}
+
+.textmain {
+    padding: 1% 1% 0 0;
+    float: right;
+    font-size: auto;
+    color: white;
+    width: 49%;
+}
+
+.textmain >img{
+    width: 90%;
+    padding-top: 2%;
+}
+
+footer {
+    margin-left: 7%;
+    margin-top: 2%;
+}
+
+footer p {
+        text-align: center;
+        color: white;
+}

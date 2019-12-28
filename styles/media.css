@@ -1,0 +1,14 @@
+@media screen and (max-width:800px){
+    .logo , article, article a , #asidesmile , .textmain{
+        float: none;
+        height: auto;
+        size: auto;
+        font-size: auto;
+    }
+    header{
+        position: static;
+    }
+    .backimage {
+        height: 100px;
+    }
+}
